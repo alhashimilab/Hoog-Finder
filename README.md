@@ -5,7 +5,9 @@ A Python Program to detect mismodeled Hoogsteen base pair from nucleic acids con
 Copyright @ Honglue Shi 2021
 Contact: honglue.shi@duke.edu / lvelve0901@gmail.com
 Citation:
+
 Shi, H., et al. (2021). "Revealing A-T and G-C Hoogsteen base pairs in stressed protein-bound duplex DNA." bioRxiv: 2021.2006.2005.447203.
+
 Lu, X. J., et al. (2015). "DSSR: an integrated software tool for dissecting the spatial structure of RNA." Nucleic Acids Res 43(21).
 
 #### Warning ####
@@ -13,8 +15,11 @@ The current version of program has only been benchmarked for DNA Watson-Crick ba
 
 #### Python Dependency ####
 Python 2.7.16
+
 json 2.0.9
+
 numpy 1.16.6
+
 pandas 0.24.2
 
 #### Other Requirement ####
