@@ -1,0 +1,25 @@
+Start to process JSON file: example/5a0w.json
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected potential mismodeled Hoogsteen!
+Chain ID.Residue
+Nucleotide 1   B.DG11
+Nucleotide 2   C.DC15
+shear=0.659 opening=29.034 C1C1_dist=8.858
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected potential mismodeled Hoogsteen!
+Chain ID.Residue
+Nucleotide 1   E.DG11
+Nucleotide 2   F.DC15
+shear=1.923 opening=56.259 C1C1_dist=8.561
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected potential mismodeled Hoogsteen!
+Chain ID.Residue
+Nucleotide 1   H.DG11
+Nucleotide 2   I.DC15
+shear=2.516 opening=61.433 C1C1_dist=8.073
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

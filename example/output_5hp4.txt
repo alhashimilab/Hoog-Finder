@@ -1,0 +1,17 @@
+Start to process JSON file: 5hp4.json
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected potential mismodeled Hoogsteen!
+Model ID:Chain ID.Residue
+Nucleotide 1   1:X.DT5
+Nucleotide 2   3:X.DA6
+shear=3.024 opening=52.505 C1C1_dist=8.158
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected potential mismodeled Hoogsteen!
+Model ID:Chain ID.Residue
+Nucleotide 1   1:X.DA6
+Nucleotide 2   3:X.DT5
+shear=3.024 opening=52.505 C1C1_dist=8.158
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
