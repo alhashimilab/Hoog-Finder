@@ -3,7 +3,9 @@ A Python Program to detect mismodeled Hoogsteen base pair from nucleic acids con
 
 #### MANUAL of Hoog-Finder Python Script ####
 Copyright @ Honglue Shi 2021
+
 Contact: honglue.shi@duke.edu / lvelve0901@gmail.com
+
 Citation:
 
 Shi, H., et al. (2021). "Revealing A-T and G-C Hoogsteen base pairs in stressed protein-bound duplex DNA." bioRxiv: 2021.2006.2005.447203.
