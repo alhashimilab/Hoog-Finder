@@ -42,7 +42,9 @@ For example, for PDB 5HP4, you need to download the biological assembly file (5h
 When you process the 5hp4.pdb1, you also need to turn on the --symm flag in x3dna-dssr.
 
 example command:
+
 x3dna-dssr -i=example/5hp4.pdb1 -o=example/5hp4.json --more --json --symm
+
 x3dna-dssr --cleanup
 
 
