@@ -30,7 +30,9 @@ Lu, X. J., et al. (2015). "DSSR: an integrated software tool for dissecting the 
 #### Manual ####
 ### Step 1: Use DSSR to parse structure and generate JSON file ###
 example command:
+
 x3dna-dssr -i=example/5a0w.pdb -o=example/5a0w.json --more --json
+
 x3dna-dssr --cleanup
 
 after this step, a JSON file called XXXX.json will be generated.
