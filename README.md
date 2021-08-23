@@ -16,13 +16,12 @@ Lu, X. J., et al. (2015). "DSSR: an integrated software tool for dissecting the 
 The current version of program has only been benchmarked for DNA Watson-Crick base pairs.
 
 #### Python Dependency ####
+```
 Python 2.7.16
-
 json 2.0.9
-
 numpy 1.16.6
-
 pandas 0.24.2
+```
 
 #### Other Requirement ####
 To run this Python program, you need to install x3dna-dssr.
@@ -37,10 +36,10 @@ Lu, X. J., et al. (2015). "DSSR: an integrated software tool for dissecting the 
 #### Manual ####
 ### Step 1: Use DSSR to parse structure and generate JSON file ###
 example command:
-
+```
 x3dna-dssr -i=example/5a0w.pdb -o=example/5a0w.json --more --json
-
 x3dna-dssr --cleanup
+```
 
 after this step, a JSON file called XXXX.json will be generated.
 
@@ -51,15 +50,35 @@ For example, for PDB 5HP4, you need to download the biological assembly file (5h
 When you process the 5hp4.pdb1, you also need to turn on the --symm flag in x3dna-dssr.
 
 example command:
-
+```
 x3dna-dssr -i=example/5hp4.pdb1 -o=example/5hp4.json --more --json --symm
-
 x3dna-dssr --cleanup
+```
 
 
 ### Step 2: Use the Python Script hg_finder.py to analyze the JSON file ###
 example command:
-
+```
 python hg_finder.py example/5hp4.json
+```
 
 example output:
+```
+Start to process JSON file: 5hp4.json
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected potential mismodeled Hoogsteen!
+Model ID:Chain ID.Residue
+Nucleotide 1   1:X.DT5
+Nucleotide 2   3:X.DA6
+shear=3.024 opening=52.505 C1C1_dist=8.158
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected potential mismodeled Hoogsteen!
+Model ID:Chain ID.Residue
+Nucleotide 1   1:X.DA6
+Nucleotide 2   3:X.DT5
+shear=3.024 opening=52.505 C1C1_dist=8.158
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+```
