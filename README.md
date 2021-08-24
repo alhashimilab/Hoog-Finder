@@ -27,11 +27,11 @@ pandas 0.24.2
 To run this Python program, you need to install x3dna-dssr.
 x3dna-dssr is developed and maintained by Dr. X.J.Lu at Columbia Univ.
 Use x3dna-dssr to parse the structure parameters from a nucleic acids containing PDB.
-The working version of x3dna-dssr is v1.9.4-2019jul08.
-Please go to http://forum.x3dna.org/site-announcements/download-instructions for download instruction
-For the convenience, we also provided a binary file in the bin folder.
-Please also make sure to cite:
-Lu, X. J., et al. (2015). "DSSR: an integrated software tool for dissecting the spatial structure of RNA." Nucleic Acids Res 43(21).
+Under their policies, the software program and all files in the program may only be licensed and distributed through Columbia Technology Ventures of Columbia University. 
+Please go to http://forum.x3dna.org/site-announcements/download-instructions for the download instruction. 
+Please also make sure to cite: Lu, X. J., et al. (2015). 
+“DSSR: an integrated software tool for dissecting the spatial structure of RNA.” Nucleic Acids Res 43(21). 
+For the demo, we provided some output JSON files as examples in the “example” folder.
 
 #### Manual ####
 ### Step 1: Use DSSR to parse structure and generate JSON file ###
